@@ -13,7 +13,7 @@ public class MyDreamApplication {
 
 	@GetMapping("/message")
 	public String massage(){
-		return "Congrats successfully in Azure !";
+		return "Congrats successfully in Azure !!";
 	}
 	
 	public static void main(String[] args) {

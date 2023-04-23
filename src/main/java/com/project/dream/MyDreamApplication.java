@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyDreamApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(MyDreamApplication.class, args);
+		SpringApplication.run(MyDreamApplication.class, args);
 		// SpringApplication app = new SpringApplication(MyDreamApplication.class);
         // app.setDefaultProperties(Collections
         //   .singletonMap("server.port", "8083"));

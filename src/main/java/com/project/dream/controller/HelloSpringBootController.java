@@ -18,7 +18,7 @@ public class HelloSpringBootController {
 	
 	@GetMapping("/hello-springboot")
 	public String helloSpringBoot() {
-		return "Hello Spring Boot Rest API";
+		return "Hello Spring Boot Rest API !! Hz";
 	}
 	
 	@GetMapping("/{id}")

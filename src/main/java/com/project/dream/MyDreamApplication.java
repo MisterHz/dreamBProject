@@ -1,7 +1,5 @@
 package com.project.dream;
 
-import java.util.Collections;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +11,7 @@ public class MyDreamApplication {
 
 	@GetMapping("/message")
 	public String massage(){
-		return "Congrats successfully in Azure !!";
+		return "Congrats successfully in Azure!";
 	}
 	
 	public static void main(String[] args) {
